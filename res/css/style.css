@@ -1,0 +1,822 @@
+@use postcss-preset-env {
+  stage: 0;
+}
+
+
+/*end media query menu responsive*/
+
+
+/*novo*/
+
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.75;
+  min-block-size: 100vh;
+   background-image: url("../img/fundopmcg.jpg");
+  padding-left:200px;
+  padding-right:200px;
+}
+
+
+ /* menu responsive */
+
+    .headerResponsive{
+      display: none;
+
+
+    }
+
+
+
+#icone2 {
+  cursor: pointer;
+  background:#B8AEA4;
+  border: 1px solid black;
+  border-radius: 1em;
+  margin-left: 15px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+#check2{
+  display: none;
+  background-color: white;
+}
+
+
+.barra2{
+  background-color:#B8AEA4;
+  border-radius: 1em;
+  height: 100%;
+  width: 300px;
+  position: absolute;
+  left: -300px;
+  transition: all .2s linear;
+}
+
+ .barra2 .link2{
+  list-style: none;
+  background-color: #B8AEA4;
+}
+
+.barra2 nav{
+  width: 100%;
+  position: absolute;
+  margin-left: -30px;
+  top: 60px;
+}
+.barra2 nav a{
+  text-decoration: none;
+}
+
+  .link2{
+  color: black;
+  font-family: 'Arial';
+  font-size: 12pt;
+  padding: 20px;
+  border-bottom: 2px solid green;
+  transition:  all .2s linear;
+  opacity: 0;
+
+  margin-top: 200px;
+}
+ .link2:hover{
+  background-color: green;
+  color: white;
+   border-radius: 999em  ;
+    padding-inline: 1em;
+  
+
+}
+
+#icone2:hover{
+  background-color: green;
+  color: white;
+   border-radius: 999em  ;
+    padding-inline: 1em;
+  
+
+}
+
+
+.menup:hover .barra2 nav a .link2{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: .2s;
+}
+.menup:hover  .barra2{
+    transform: translateX(300px);
+
+}
+
+.menup .barra2 nav .itensMenu li{
+  list-style: none; 
+}
+
+.menup .barra2 nav .itensMenu .mostraColegiado .colegiados{
+  display: none;
+}
+
+
+
+.link3{
+  color: black;
+  font-family: 'Arial';
+  font-size: 12pt;
+  border-bottom: 2px solid green;
+  transition:  all .2s linear;
+
+}
+ .link3:hover{
+  background-color: green;
+  color: white;
+   border-radius: 999em  ;
+    padding-inline: 1em;
+  
+
+}
+
+
+.menup .barra2 nav .itensMenu .mostraColegiado .colegiados {
+   margin-left: 150px;
+   width:50px;
+   border: 1px solid green;
+   background-color:#B8AEA4;
+   border-radius: 1em;
+   display:none;
+  flex-direction: column;
+  align-content: left;
+  align-items: left; 
+
+}
+
+
+.menup .barra2 nav .itensMenu .mostraColegiado .colegiados  li{
+    margin-top:10px;
+    margin-left:-35px;
+
+}
+
+
+.menup .barra2 nav .itensMenu .mostraColegiado:hover .colegiados {
+
+  margin-left: 150px;
+   width:100%;
+   border: 1px solid green;
+   background-color:#B8AEA4;
+   border-radius: 1em;
+   display:flex;
+  flex-direction: column;
+  align-content: left;
+  align-items: left; 
+
+    
+
+}
+
+
+
+/*end menu responsive*/
+
+
+
+
+/* start header*/
+
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 48em;
+}
+
+
+/* end dropdown no header*/
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+   position: fixed;
+  background-color: #B8AEA4;
+  border-radius: 1em;
+  min-width: 160px;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+   border-radius: 1em;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content div{
+display:flex;
+flex-direction:row;
+align-content: center;
+align-items: center;
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: green;
+}
+
+
+
+/* end dropdown no header*/
+
+/*sobe e desce header */
+
+
+/* helpers/sticky.css */
+
+.sticky {
+  position: sticky;
+  will-change: transform;
+}
+
+.sticky--top {
+  top: 0;
+}
+
+/* layout/base.css */
+
+* {
+  box-sizing: inherit;
+}
+
+/*sobe e desce header */
+
+
+
+
+
+/* config header */
+
+.header {
+  border: 1px solid black;
+  background-color: #B8AEA4;
+  padding-block: 1em;
+
+}
+
+.header.is-active::after {
+  opacity: 1;
+}
+
+
+.navigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5em;
+}
+
+
+.navigation__link {
+  color: inherit;
+  display: block;
+  padding-inline: 1em;
+  text-decoration: none;
+}
+
+
+
+.navigation__link:hover{
+  background-color: green;
+  padding-inline: 1em;
+   text-decoration: none;
+  border-radius: 999em;
+  color: #fff;
+}
+
+
+#ultimasnoticias{
+border: none;
+height:150px;
+
+}
+
+
+
+
+.navigation__link--is-active {
+  background-color: green;
+  border-radius: 999em;
+  color: #fff;
+   padding-inline: 1em;
+  text-decoration: none;
+}
+
+
+
+
+.logoAaoc:hover{
+  border: 2px solid green;
+  width: 120px;
+  height: 100px
+
+ 
+}
+
+.navigation__item .logoAaoc{
+  background: white;
+}
+
+/* config header */
+
+/*menu header*/
+
+.menu{
+  background-color: green;
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:16px;
+ 
+
+}
+
+.menu ul {
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     align-items: center;
+  text-align: center;
+}
+
+
+.menu ul li{
+
+    list-style: none; 
+}
+.menu ul li a{
+  text-decoration: none;
+  border: 0px solid #f00; 
+  background: green;
+  color: black;
+  
+  /* cantos arredondados */
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+
+.menu ul li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+
+/*end menu header*/
+
+
+
+
+
+.divPrincipal{
+  background:white;
+  justify-content:left;
+  padding: 10px;
+  border:1px solid black;
+}
+
+.divElementosTituloImg{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+#imgTitulo{
+  border: 1px solid black;
+
+}
+
+.listaHistAAOC{
+  background:#B8AEA4;
+  border:1px solid black;
+}
+
+
+/*tela de colegiados*/
+/* para o quadro de conselhos (grid) */
+#grid{
+  height:500px;
+  padding-top:10px; 
+  padding-left:100px; 
+  padding-right:100px;
+
+}
+
+#linha1{
+  padding-left:100px; 
+  padding-right:100px;
+  padding-top:20px;
+  padding-bottom:10px;
+  height:250px;
+  background:#B8AEA4;
+  display: flex;
+  flex-direction:row;
+  align-content:center;
+  align-items: center;
+  grid-gap: 8px;
+}
+
+#linha2{
+  padding-left:100px; 
+  padding-right:100px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background:#B8AEA4;
+  display: flex;
+  flex-direction:row;
+  align-content:center;
+  align-items: center;
+  grid-gap: 8px;
+}
+
+
+.divContentConselho{
+  background:white;
+  padding-top:20px;
+  border-radius: 2em;
+  width:200px;
+  height:180px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+
+}
+
+
+/*.divContentConselho:hover{
+  background:green;
+  padding-top:20px;
+  border-radius: 2em;
+  width:200px;
+  height:180px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+
+}*/
+
+/*end  para o quadro de conselhos (grid) */
+
+.linksConselhos{
+  text-decoration: none;
+   padding-top:10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:20px;
+}
+
+.divContentConselho:hover .linksConselhos{
+  text-decoration: none;
+  border-radius: 3em;
+   padding-top:5px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:5px;
+  background: green;
+  color: #fff;
+}
+
+
+.imgsConselhos{
+   padding-top:20px;
+   padding-left:10px;
+   padding-right:10px;
+   padding-bottom:10px;
+  background: #fff;
+  border-radius: 2em;
+
+}
+
+.divContentConselho:hover .imgsConselhos{
+   padding-top:20px;
+   padding-left:10px;
+   padding-right:10px;
+   padding-bottom:10px;
+  background: green;
+  border-radius: 2em;
+
+}
+
+/**end tela de colegiados/
+
+
+
+
+
+
+
+
+       /*config footer*/    
+   
+  footer{
+        border: 1px solid black;
+       background-color:#B8AEA4;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom:-15px;        
+  }     
+
+
+
+
+.datafooter{
+       font-size:12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+}
+
+/* end config footer*/
+
+.conselhos{
+      border: 1px solid black;
+      background-color:white;
+      padding: 10px;
+
+  }
+
+
+  .conselhos h2{
+    text-align: center;
+  }
+
+  .conselhos fieldset{
+    padding: 10px;
+   
+  }
+
+/*media query menu responsive*/
+@media  (max-width:1118px){
+
+        .header {
+          display: none;
+        }
+
+
+        .headerResponsive {
+          display: block;
+           border: 1px solid black;
+          background-color: #B8AEA4;
+          padding-block: 2em;
+  
+        }
+
+        .headerResponsive .menup{
+          margin-top: -20px;
+        }
+
+    }
+
+
+
+.divPrincipal h3{
+
+  background:#B8AEA4;
+}
+
+
+.imgHistAAOC{
+
+   -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);;
+   -moz-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);;
+   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);;
+}
+
+
+/*alinhamento das imagens na história da AAOC*/
+
+/* elementos do topico 1 */
+#divAlinhaImg1{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg1{
+  padding:10px;
+ 
+}
+
+
+/*end elementos do topico 1 */
+
+/* elementos do topico 2 */
+
+#divAlinhaImg2{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg2{
+  padding:10px;
+}
+
+/*end  elementos do topico 2 */
+
+/* elementos do topico 4 */
+
+#divAlinhaImg4{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg4{
+  padding:10px;
+}
+/* end  elementos do topico 4 */
+
+
+/* elementos do topico 6 */
+
+#divConsImg6{
+  background: #B8AEA4;
+  border:1px solid black;
+
+}
+
+
+#divAlinhaImg6{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+
+#listaCons1Img6{
+
+    border:none;
+
+}
+
+
+#listaCons2Img6{
+
+    border:none;
+    margin-top:-10px;
+
+}
+
+
+
+#divImg6{
+  padding:10px;
+}
+
+/* end  elementos do topico 6 */
+
+
+/* elementos do topico 7 */
+
+#divAlinhaImg7{
+
+     display: flex;
+  flex-direction:row;
+}
+
+#divImg7{
+
+  padding-top:0px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/*end elementos do topico 7 */
+
+/* elementos do topico 8 */
+
+#divAlinhaImg8{
+
+    display: flex;
+    flex-direction:row;
+    background: #B8AEA4;
+    border:1px solid black;
+}
+
+
+
+#listaCons1Img8{
+
+    border:none;
+
+}
+
+#divImg8{
+
+   display: flex;
+   flex-direction:row; 
+   align-items:right;
+   padding:10px;
+}
+
+#dixAuxImg8Right{
+    width: 200px;
+    height: 150px;
+}
+
+
+/*end  elementos do topico 8 */
+
+
+/* elementos do topico 9 */
+
+#divAlinhaImg9{
+
+  display: flex;
+  flex-direction:row;
+  background: #B8AEA4;
+  border:1px solid black;
+
+}
+
+
+#listaCons1Img9{
+
+    border:none;
+
+}
+
+
+#divImg9{
+  padding: 10px;
+}
+/* end elementos do topico 9 */
+
+/* end  alinhamento das imagens na história da AAOC*/
+
+
+/* elementos do topico 12 */
+#divAlinhaImg12{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg12{
+  padding:10px;
+}
+/*end elementos do topico 12 */
+
+
+
+/* elementos do topico 13 */
+#divAlinhaImg13{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg13{
+  padding:10px;
+}
+/*end elementos do topico 13 */
+

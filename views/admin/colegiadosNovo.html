@@ -1,0 +1,100 @@
+  <div class="divPrincipal">
+         <!-- div principal-->
+            <article>
+             <div id="grid">  
+
+               <div id="linha1" >
+                  
+                    
+
+          {loop="$conselhos"}
+         
+               {if="$line < 3"}
+
+                 <div class="divContentConselho">
+                        
+                        {if='$value.idconselho==1'}
+                        <img class="imgsConselhos"  height="180px" width="120px" src="../res/img/logo_aaoc.jpeg" alt="image not found" >
+                        <a class="linksConselhos" href="/colegiados/aaoc">AAOC</a>
+                        {/if}
+
+                        {if='$value.idconselho==2'}
+                        <img class="imgsConselhos" height="120px" width="120px" src="../res/img/logo_cmdca.jpg" alt="image not found" >
+                        <a class="linksConselhos" href="/colegiados/cmdca">CMDCA</a>
+                        {/if}
+
+                        {if='$value.idconselho==3'}
+                        <img class="imgsConselhos" height="180px" width="120px" src="../res/img/logo_cmi.jpeg" alt="image not found" >
+                        <a class="linksConselhos" href="/colegiados/cmi">CMI</a>
+                        {/if}
+                     
+                  </div>
+       
+                  {/if}
+
+
+
+               <label label="{$line++}" hidden></label>
+            {/loop}
+
+ 
+
+
+               </div><!--end line1-->
+
+                <div id="linha2">
+                  
+                  
+               {loop="$conselhos"}
+         
+                  {if="$line2 >= 3 "}      
+
+                     <div class="divContentConselho">
+
+                         {if='$value.idconselho==4'}
+                        <img  class="imgsConselhos" height="120px" width="120px" src="../res/img/logo_comad.png" alt="image not found" >
+                        <a class="linksConselhos" href="/colegiados/comad">COMAD</a>
+                        {/if}
+                        
+                         {if='$value.idconselho==5'}
+                        <img class="imgsConselhos"  height="180px" width="120px" src="../res/img/logo_cms.png" alt="image not found" >
+                        <a class="linksConselhos" href="/colegiados/cms">CMS</a>
+                        {/if}
+
+                         {if='$value.idconselho==6'}
+                        <img class="imgsConselhos" height="180px" width="120px" src="../res/img/fundopmcg.jpg" alt="image not found" >
+                        <a  class="linksConselhos" href="/colegiados/cme">CME</a>
+                        {/if}
+
+                     </div>
+
+                      {/if}
+
+
+
+               <label label="{$line++}" hidden></label>
+            {/loop}
+                     
+                     
+
+               </div><!--end line2-->
+
+            </div><!--end grid-->
+
+
+
+
+
+
+
+
+
+
+            </article>
+
+
+
+
+
+
+   </div>

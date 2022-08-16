@@ -1,0 +1,578 @@
+
+
+/*div show image informative*/
+#image-preview{
+
+	border: 1px solid black;
+	width: 800px;
+	height: 390px;
+
+}
+/*div show image informative*/
+
+
+/*table  */
+table{
+	margin-top: 10px;
+	border: 1px solid black;
+	background:#B8AEA4;
+
+
+}
+
+table th{
+
+	border: 1px solid black;
+	padding: 10px;
+
+
+}
+
+
+table td{
+	background:white;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+
+/*table*/
+
+
+/*div table*/
+.tela_lista {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+
+}
+
+/*div table*/
+
+
+/*div pesquisa*/
+ .divsearch{
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+	align-content: left;
+	
+}
+
+
+/*buttons search*/
+
+#inputbusca{
+	width:200px;
+	
+}
+
+
+#btbusca{
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: green;
+	color: white;
+	
+}
+
+
+
+
+#btbusca:hover{
+
+	
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: #B8AEA4;
+	color: white;
+
+}
+/*buttons search*/
+
+
+/*link para cadastro user*/
+#insertUserLink{
+	margin-top: 10px;
+	padding: 2px;
+	border: 1px solid black;
+	background: green;
+	color: white;
+	border-radius: 1em;
+	text-decoration: none;
+}
+/*link para cadastro user*/
+
+
+#insertUserLink:hover{
+
+	padding: 2px;
+	border: 1px solid black;
+	background: #B8AEA4;
+	color: black;
+	border-radius: 2em;
+	text-decoration: none;
+}
+/*link para cadastrar user*/
+
+
+/*link para alterar user*/
+
+#updateUserLink{
+
+	padding: 8px;
+	border: 1px solid black;
+	background: green;
+	color: white;
+	border-radius: 1em;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+
+#updateUserLink:hover{
+
+	padding: 8px;
+	border: 1px solid black;
+	background: #B8AEA4;
+	color: black;
+	border-radius: 2em;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+/*link para alterar user*/
+
+
+/*link para excluir user*/
+#deleteUserLink{
+
+	padding: 8px;
+	border: 1px solid black;
+	background: red;
+	color: white;
+	border-radius: 1em;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+#deleteUserLink:hover{
+
+	padding: 8px;
+	border: 1px solid black;
+	background: #B8AEA4;
+	color: black;
+	border-radius: 2em;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+/*link para excluir user*/
+
+
+h2{
+	background: #B8AEA4;
+	border-radius: 1em;
+	padding: 15px;
+
+}
+
+
+/*div e form user*/
+
+
+.divformUser{
+	margin-top: 150px;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+
+
+}
+
+.formUser{
+
+	padding: 10px;
+	width: 400px;
+	background: #B8AEA4;
+	
+	
+}
+
+/*div e form user*/
+
+
+/*inputs user and  informative*/
+
+input[type="text"],input[type="email"],input[type="tel"]{
+
+	border: 1px solid green;
+	width: 100%;
+	height: 30px;
+
+}
+/*inputs user and  informative*/
+
+
+
+/*button cadastrar user*/
+#btcadUser{
+	margin-top: 10px;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: green;
+	color: white;
+	margin-left: 130px;
+}
+
+
+
+
+
+#btcadUser:hover{
+
+	margin-top: 10px;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: #B8AEA4;
+	color: white;
+	margin-left: 130px;
+}
+/*button cadastrar user*/
+
+
+#btopenModal{
+		padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: green;
+	color: white;
+}
+
+
+#btopenModal:hover{
+
+
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: #B8AEA4;
+	color: white;
+
+}
+
+
+
+
+#btopenModalSenha{
+		padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: green;
+	color: white;
+}
+
+
+#btopenModalSenha:hover{
+
+
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: #B8AEA4;
+	color: white;
+
+}
+
+
+/*button cadastrar informative*/
+
+#btcadInfo{
+	margin-top: 10px;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: green;
+	color: white;
+	margin-left: 350px;
+}
+
+
+
+#btcadInfo:hover{
+
+	margin-top: 10px;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: #B8AEA4;
+	color: white;
+	margin-left: 350px;
+}
+/*button cadastrar informative*/
+	
+
+/*list pagination*/
+.ulpagination{
+	border: 1px solid black;
+	list-style: none;
+	background: #B8AEA4;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	grid-gap: 10px;
+	
+
+}
+
+.ulpagination a{
+	padding:5px ;
+	border-radius:1em;
+	background: green;
+	color: white;
+	text-decoration: none;
+}
+
+/*list pagination*/
+
+
+/*modal conselhos*/
+
+  #containerModalConselhos {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  border: 2px solid black;
+  background: #fff; /*rgba(0,0,0,0.8);*/
+  z-index:99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+  
+}
+
+
+
+.fechar {
+  position: absolute;
+  width: 30px;
+  right: -15px;
+  top: -20px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 5px;
+  background: #ff4545;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #8d0000;
+}
+
+
+
+.contentmodalConselhos{
+	
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 190px;
+	background: #B8AEA4;
+}
+
+
+
+
+.line{
+ 
+ display: flex;
+  flex-direction:row;
+  align-content: center;
+  align-items: center;
+
+}
+
+
+.line{
+ margin-top:10px;
+ display: flex;
+  flex-direction:row;
+  align-content: center;
+  align-items: center;
+
+}
+
+
+#btconselhos{
+  margin-top: 30px;
+   margin-left: 180px;
+   border-radius: 1em;
+   background: green;
+   color: white;
+   padding: 10px;
+}
+
+
+
+#btconselhos:hover{
+  margin-top: 30px;
+   margin-left: 180px;
+   border-radius: 1em;
+   background: #B8AEA4;
+   color: white;
+   padding: 10px;
+}
+
+
+
+
+
+label{
+  padding-right: 20px;
+}
+
+
+
+#divtitlemodal{
+			background: green;
+		color: #fff;
+	 display: flex;
+	 padding: 2px;
+  flex-direction:column;
+  align-content: center;
+  align-items: center;
+
+
+
+}
+
+
+/*en dmodal conselhos*/
+
+
+
+/*modal senha*/
+
+
+
+
+  #containerModalSenha {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  border: 2px solid black;
+  background: #fff; /*rgba(0,0,0,0.8);*/
+  z-index:99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+  
+  
+}
+
+
+
+#divtitlemodalSenha{
+		background: green;
+		color: #fff;
+	 display: flex;
+	 padding: 2px;
+  flex-direction:column;
+  align-content: center;
+  align-items: center;
+
+
+
+}
+
+
+#contentmodalSenha{
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 190px;
+
+	
+}
+
+
+#idFormUserPass{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+		background: #B8AEA4;
+}
+
+
+
+
+
+#btConcluirSenha{
+  margin-top: 30px;
+   margin-left: 120px;
+   border-radius: 1em;
+   background: green;
+   color: white;
+   padding: 10px;
+}
+
+
+
+#btConcluirSenha:hover{
+  margin-top: 30px;
+   margin-left: 120px;
+   border-radius: 1em;
+   background: #B8AEA4;
+   color: white;
+   padding: 10px;
+}
+
+
+
+#btCancelarSenha{
+  margin-top: 30px;
+   border-radius: 1em;
+   background: green;
+   color: white;
+   padding: 10px;
+}
+
+
+
+#btCancelarSenha:hover{
+  margin-top: 30px;
+   border-radius: 1em;
+   background: #B8AEA4;
+   color: white;
+   padding: 10px;
+}
+
+
+
+
+
+
+
+
+

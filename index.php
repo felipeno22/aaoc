@@ -16,7 +16,11 @@ $app->config('debug', true);
 
 
 require_once("site.php");
-//require_once("admin.php");
+require_once("admin.php");
+require_once("user.php");
+require_once("myuser.php");
+require_once("informative.php");
+require_once("myinformative.php");
 
 
 $app->run();//dps dde carregado os arquivos ele roda

@@ -25,24 +25,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'f98f89f0265b58f1061563b720db6ba2b62ec8a4',
     'name' => 'felipeno22/aaoc',
   ),
   'versions' => 
   array (
     'felipeno22/aaoc' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f98f89f0265b58f1061563b720db6ba2b62ec8a4',
     ),
     'phpmailer/phpmailer' => 
     array (

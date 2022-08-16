@@ -1,0 +1,41 @@
+
+input[type="text"],input[type="email"],input[type="tel"]{
+
+	border: 1px solid green;
+	width: 100%;
+	height: 30px;
+
+}
+/*inputs user and  informative*/
+
+
+
+/*button cadastrar user*/
+#btFaleConosco{
+	
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: green;
+	color: white;
+	align-items: center;
+	
+}
+
+
+
+
+
+#btFaleConosco:hover{
+
+	
+	width: 100px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 1em;
+	background: #B8AEA4;
+	color: white;
+	align-items: center;
+}
+/*button cadastrar user*/

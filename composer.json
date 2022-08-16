@@ -12,7 +12,13 @@
     "require": {
 		"phpmailer/phpmailer":"5.2.22",
     		"slim/slim":"2.0",
-    		"rain/raintpl":"3.0.0"
+    		"rain/raintpl":"3.0.0",
+        "twbs/bootstrap": "dev-main"
 		
-	}
+	},
+	"autoload": {
+        "psr-4": {
+            "felipeno22\\": "vendor\\felipeno22\\php-classes\\src"
+        }
+    }		
 }

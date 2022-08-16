@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+        <title>AAOC</title>
+        <link rel="stylesheet" type="text/css" href="../res/css/style.css">
+         <link rel="stylesheet" type="text/css" href="../res/css/fale_conosco.css">
+        
+
+        <!-- Bootstrap -->
+          <link href="../res/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+        <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+
+
+<body id="telaInical">
+
+
+<header class='headerResponsive'>
+ 
+
+      <div class="menup" > 
+<input type="checkbox" id="check2"/>
+<label for="check2" id="icone2">MENU</label>
+<div class="barra2">  
+  <nav>
+
+    <ul class="itensMenu">
+      
+      <li class="mostraColegiado" >
+          <a   href="/" ><div class="link2">AAOC</div></a> 
+           <ul class="colegiados">
+              <li><div ><a class="link3" href="/" >Inicio</a></div></li>
+              <li><div ><a class="link3" href="/historia" >História</a></div></li>
+              
+              
+              
+          </ul> 
+
+      </li>
+
+      <li class="mostraColegiado" >
+          <a  href="/colegiados"  ><div class="link2">Colegiados</div></a>    
+         <!-- <ul class="colegiados">
+              <li><div ><img  height="20px" width="20px" src="../res/img/logo_aaoc.jpeg" alt="image not found" ><a class="link3" href="/colegiados/aaoc" >AAOC</a></div></li>
+              <li><div ><img  height="20px" width="20px" src="../res/img/logo_cmdca.jpg" alt="image not found" ><a class="link3" href="/colegiados/cmdca" >CMDCA</a></div></li>
+              <li><div ><img  height="20px" width="20px" src="../res/img/logo_cmi.jpeg" alt="image not found" ><a class="link3" href="/colegiados/cmi" >CMI</a></div></li>
+              <li><div ><img  height="20px" width="20px" src="../res/img/logo_comad.png" alt="image not found" ><a class="link3" href="/colegiados/comad" >COMAD</a></div></li>
+              <li><div ><img  height="20px" width="20px" src="../res/img/logo_cms.png" alt="image not found" ><a class="link3" href="/colegiados/cms" >CMS</a></div></li>
+              <li><div ><img  height="20px" width="20px" src="../res/img/fundopmcg.jpg" alt="image not found" ><a class="link3" href="/colegiados/cme" >CME</a></div></li>
+              
+              
+          </ul>-->
+
+      </li>
+
+      <li><a href="/fale_conosco"> <div class="link2">Fale Conosco</div></a></li>
+
+
+
+
+    </ul>
+     
+    
+  </nav>  
+</div>
+</div>
+
+
+
+</header>
+
+
+
+<!--header-->
+<header class="header sticky sticky--top js-header">
+
+
+<div class="grid">
+
+  <nav class="navigation">
+      <ul class="navigation__list">
+          <li class="navigation__item">
+              <div class="dropdown">
+                <a href="/" class='navigation__link{if="$is_active==null"}{else}{$is_active}{/if}' >AAOC</a>
+                 <div class="dropdown-content">
+                   <div ><a href="/" >Inicio</a></div>
+
+                    <div ><a href="/historia">História</a></div>
+                </div>
+              
+
+               
+              </div>  
+            </li>
+
+          <li class="navigation__item">
+               <div class="dropdown">
+                <a href="/colegiados" class='navigation__link{if="$is_active1==null"}{else}{$is_active1}{/if}' >Colegiados</a>
+                <!--<div class="dropdown-content">
+                  <div ><img  height="20px" width="20px" src="../res/img/logo_aaoc.jpeg" alt="image not found" ><a href="/colegiados/aaoc" >AAOC</a></div>
+
+                  <div ><img  height="20px" width="20px" src="../res/img/logo_cmdca.jpg" alt="image not found" ><a href="/colegiados/cmdca">CMDCA</a></div>
+
+                  <div ><img  height="20px" width="20px" src="../res/img/logo_cmi.jpeg" alt="image not found" ><a href="/colegiados/cmi">CMI</a></div>
+
+                  <div ><img  height="20px" width="20px" src="../res/img/logo_comad.png" alt="image not found" ><a href="/colegiados/comad">COMAD</a></div>
+
+                  <div ><img  height="20px" width="20px" src="../res/img/logo_cms.png" alt="image not found" ><a href="/colegiados/cms">CMS</a></div>
+
+                  <div ><img  height="20px" width="20px" src="../res/img/fundopmcg.jpg" alt="image not found" ><a href="/colegiados/cme">CME</a></div>
+                </div>-->
+              </div>
+          </li>
+          <li class="navigation__item"><a href="/fale_conosco" class='navigation__link{if="$is_active2==null"}{else}{$is_active2}{/if}' >Fale Conosco</a></li>
+      </ul>
+
+
+  </nav>
+
+</div>
+  
+
+</header>
+<!--header-->
