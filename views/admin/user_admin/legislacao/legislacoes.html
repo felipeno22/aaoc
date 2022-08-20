@@ -1,0 +1,67 @@
+
+<div  class="tela_listaLegis">
+
+
+  <h2 id="titleListLegis">
+    Lista de Legislações
+  </h2>
+
+
+
+   <div class="divsearchLegis">
+                <form action='/legislacoes'>
+                 
+                    <input  id="inputbuscaLegis" type="text" name="search"  placeholder="buscador" value="{$search}">
+                    <button id="btbuscaLegis" type="submit" ><i class="fa fa-search">buscar</i></button>
+                    
+                  
+                </form>
+     </div>  
+
+
+  <a id="insertLegisLink" href="/legislacao/insert">Cadastrar Legislacao</a>
+  
+
+<!-- Main content -->
+
+              <table id="tbLegis" >
+                <thead>
+                  <tr>
+                    <th hidden style="width:100px">ID</th>
+                    <th  style="width:250px">Legislação</th>
+                    <th hidden >iduser</th>
+                    <th hidden >idconselho</th>
+                    <th style="width: 400px">Opções</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {loop="$legislacoes"}
+                  <tr>
+                    <td hidden>{$value.idlegislacao}</td>
+                    <td>{$value.legislacao}</td>
+                    <td hidden >{$value.iduser}</td/>
+                    <td  hidden>{$value.idconselho}</td/>
+                    <td>
+                <a  id="updateLegisLink" href="/updateLegis/{$value.idlegislacao}" class="btn btn-primary btn-xs"><i class="fa fa-edit"></i> Editar</a>
+                  <a  id="deleteLegisLink"  href="/legislacao/delete/{$value.idlegislacao}" onclick="return confirm('Deseja realmente excluir este registro?')" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Excluir</a>
+                   </tr>
+                  {/loop}
+                </tbody>
+              </table>
+
+               {if="$legislacoes==null"}
+                  
+                    <p>sem dados</p>
+                  {/if}
+                <!-- /.box-body -->
+             <div class="divpaginationLegis">
+              <ul class="ulpaginationLegis">
+                {loop="$pages"}
+                <li><a href="{$value.href}">{$value.text}</a></li>
+                {/loop}
+              </ul>
+            </div>
+
+<!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

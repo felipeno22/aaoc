@@ -1,0 +1,61 @@
+
+
+
+.conselhos{
+      border: 1px solid black;
+      background-color:white;
+      padding: 10px;
+
+  }
+
+
+
+
+
+  .conselhos h2{
+    text-align: center;
+  }
+
+  .conselhos fieldset{
+    padding: 10px;
+   
+  }
+
+
+  legend {
+    background: #B8AEA4;
+    padding:0px;
+
+  }
+
+  #legNoticias{
+    background:white;
+    border: 1px solid black;
+
+  }
+
+
+  #legNoticias img{
+      height:100px;
+
+
+  }
+
+
+#divInfoNoticias{
+
+  padding:10px;
+  grid-gap:1em;
+  display:flex;
+  flex-direction:row;
+  background:#B8AEA4;
+}
+
+#divInfoNoticias img{
+
+border:2px solid black;
+
+}
+
+
+

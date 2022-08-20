@@ -1,0 +1,119 @@
+
+
+
+      <div class="conselhos" >
+
+
+            <article>
+                
+                <section> <!--Sessao  dados conselho-->
+                            <h2 >Conselho Municipal do Idoso-CMI</h2>     
+   <fieldset>
+                            
+                                <legend><h3>Objetivo</h3></legend>
+                            
+                                <p>
+                            Criado com a atribuição de acolhimento, de encaminhamento e busca de soluções para as questões relacionadas com as atividades do níveis de atuação auxiliar , objetivando as condições favoráveis aos órgãos colegiados no desempenho de suas responsabilidades.
+                             </p>
+
+
+                            </fieldset>
+
+
+                         <fieldset>
+                            
+                                <legend> <h3>Competências</h3></legend>
+                       
+                        <p>
+                            1. exercitar e coordenar as atividades de apoio técnico e administrativo aos Conselhos Municipais e Regioanais da cidade;<br>
+                       
+                            2. articular-se com os diversos organismos da Administração Municipal e Órgãos Colegiados, visando assegurar a unidade e trabalho;<br>
+                       
+                            3. propiciar aos Órgãos Colegiados condições físicas e organizacionais necessárias para o desempenho de suas atividades ;<br>
+                        </p>
+
+                    </fieldset>
+
+                     <fieldset>
+                            
+                                <legend> <h3>Legislação</h3></legend>
+
+                       
+
+                       <p>{$i=1}
+                             {loop="$legislacoes"}
+                                   <strong>{$i}.</strong> {$value.legislacao}<br>
+
+
+                                   <label hidden>{$i++}</label>
+                              {/loop}   
+                          
+
+
+                        </p>
+
+                          {if="$legislacoes==null"}
+                                <h4>Sem legislações !!!</h4>
+                            {/if}  
+
+
+
+                    </fieldset>
+
+
+ <br>
+
+                              
+
+
+                </section><!--end Sessao  dados conselho-->
+
+
+
+
+
+
+
+
+
+          
+
+            <section><!-- aside  dados noticias-->
+                    
+                    <fieldset>
+                         <legend id="legNoticias"><img id="ultimasnoticias" src="../res/img/ultimasnoticias.png" alt="image not found"></legend>
+
+
+
+                        {loop="$noticias"}
+                         <div id="divInfoNoticias" >
+                                <img  src="..{$value.imginformation}" alt="image not found" width="250" height="200"> 
+                                
+                               <div id="divDadosNoticias" > <h4>{$value.title} <small>publicado: {$value.dtinformation}</small></h4>
+
+                                
+                               <p> {$value.information}</p></div>
+                                
+                            </div>
+                            <br>
+                        {/loop}
+                            
+
+                         {if="$noticias==null"}
+                                <h4>Sem noticias !!!</h4>
+                            {/if}  
+
+                          
+
+                        
+
+                    </fieldset>   
+                    
+
+            </section> <!--end aside  dados noticias-->
+
+              </article> 
+
+    </div>
+
+        

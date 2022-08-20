@@ -158,12 +158,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "a685b9648bf14c853b9a417c7c68f95d93e1aabc"
+                "reference": "c3c65911665ab64bdaa15d405db65ee81655dbf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a685b9648bf14c853b9a417c7c68f95d93e1aabc",
-                "reference": "a685b9648bf14c853b9a417c7c68f95d93e1aabc",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/c3c65911665ab64bdaa15d405db65ee81655dbf3",
+                "reference": "c3c65911665ab64bdaa15d405db65ee81655dbf3",
                 "shasum": ""
             },
             "replace": {
@@ -201,7 +201,7 @@
                 "issues": "https://github.com/twbs/bootstrap/issues",
                 "source": "https://github.com/twbs/bootstrap/tree/main"
             },
-            "time": "2022-08-04T06:48:23+00:00"
+            "time": "2022-08-10T19:23:41+00:00"
         }
     ],
     "packages-dev": [],

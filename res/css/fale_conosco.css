@@ -39,3 +39,16 @@ input[type="text"],input[type="email"],input[type="tel"]{
 	align-items: center;
 }
 /*button cadastrar user*/
+
+
+
+
+.addressAAOC{
+       font-size:12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+}

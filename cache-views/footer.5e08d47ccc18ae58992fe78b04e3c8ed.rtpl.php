@@ -22,12 +22,13 @@
 
 
 
-    <script src="../res/js/scripts.js" ></script>    
-     <script src="../res/js/babels.js" ></script> 
+    <script src="../res/js/users.js" ></script>
+    <script src="../res/js/informatives.js" ></script>    
+     <script src="../res/js/menu_site.js" ></script> 
       <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="../res/js/bootstrap.min.js"></script> 
+    <script src="../res/bootstrap/js/bootstrap.min.js"></script> 
      
       </body>
 </html>

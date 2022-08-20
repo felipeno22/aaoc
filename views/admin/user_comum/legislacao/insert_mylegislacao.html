@@ -1,0 +1,60 @@
+<div class="divformLegis">
+
+
+<form  id="idFormLegis" name="idFormLegis"  onsubmit="return insert_update_legis('insert')" class="formLegis" action="/mylegislacao/insert" method="post" enctype="multipart/form-data">
+	
+
+	<fieldset>
+		
+		<legend>Cadastrar Legislação</legend>
+
+	
+	
+  {if="$error!= '' "}
+  	{if="$error== 'deu certo' "}
+  			<div class="alert alert-success" role="alert">Legislação cadastrada com sucesso!!!</div>
+  	{else}
+  			<div class="alert alert-danger" role="alert">{$error}</div>
+  	{/if}		
+ {else}
+		 <div> </div>
+ {/if}	
+			
+
+			<label>Legislação:</label>
+			<input type="text" id="legislacao" name="legislacao" required><br>
+
+
+			
+
+			  <label>Conselho:</label>
+			<select id="conselhos" name="conselhos">
+						
+				 {loop="$conselhos"}
+    		
+    				<option value="{$value.idconselho}">{$value.initials}</option>
+    					
+      			{/loop}
+
+		    </select><br>
+
+
+			
+			<input type="text" hidden id="iduser" name="iduser" value="{$iduser}">
+			
+
+
+	</fieldset>
+
+
+	<input id='btcadLegis' type="submit" value="Salvar">
+
+
+</form>
+
+
+<script>
+        $(document).ready(function() {
+            $('#conselhos').select2();
+        });
+    </script>

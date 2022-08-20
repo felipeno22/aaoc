@@ -1,0 +1,59 @@
+<div class="divformLegis">
+
+
+<form  id="idFormLegis" name="idFormLegis"  onsubmit="return insert_update_legis('update')"  class="formLegis" action="/updateComp/:idcompetence" method="post" enctype="multipart/form-data">
+		
+
+
+
+	<fieldset>
+		
+		<legend>Alterar Competência</legend>
+
+
+  {if="$error!= '' "}
+  	{if="$error== 'deu certo' "}
+  			<div class="alert alert-success" role="alert">Competência alterada com sucesso!!!</div>
+  	{else}
+  			<div class="alert alert-danger" role="alert">{$error}</div>
+  	{/if}		
+ {else}
+		 <div> </div>
+ {/if}	
+			
+
+			<input type="text" hidden  id="idcompetence" name="idcompetence"  value="{$competence.idcompetence}">
+
+			<label>Competência:</label>
+			<input type="text" id="competence" name="competence"  value="{$competence.competence}" required><br>
+
+
+			  <label>Conselho:</label>
+			<select id="conselhos" name="conselhos">
+						
+				 {loop="$conselhos"}
+    		 
+    				<option value="{$value.idconselho}"  {if="$value.idconselho == $competence.idconselho"}selected{/if} >{$value.initials}</option>
+    					
+      			{/loop}
+
+		    </select><br>
+
+			<input type="text" hidden  id="iduser" name="iduser" value="{$competence.iduser}">
+			
+
+
+	</fieldset>
+
+
+	<input id='btcadLegis' type="submit" value="Alterar">
+
+
+</form>
+
+
+<script>
+        $(document).ready(function() {
+            $('#conselhos').select2();
+        });
+    </script>

@@ -1,0 +1,240 @@
+/*tela historia aaoc*/
+
+
+.divPrincipal{
+  background:white;
+  justify-content:left;
+  padding: 10px;
+  border:1px solid black;
+}
+
+.divElementosTituloImg{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+#imgTitulo{
+  border: 1px solid black;
+
+}
+
+.listaHistAAOC{
+  background:#B8AEA4;
+  border:1px solid black;
+}
+
+
+
+
+.divPrincipal h3{
+
+  background:#B8AEA4;
+}
+
+
+.imgHistAAOC{
+
+   -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);;
+   -moz-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);;
+   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);;
+}
+
+
+/*alinhamento das imagens na história da AAOC*/
+
+/* elementos do topico 1 */
+#divAlinhaImg1{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg1{
+  padding:10px;
+ 
+}
+
+
+/*end elementos do topico 1 */
+
+/* elementos do topico 2 */
+
+#divAlinhaImg2{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg2{
+  padding:10px;
+}
+
+/*end  elementos do topico 2 */
+
+/* elementos do topico 4 */
+
+#divAlinhaImg4{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg4{
+  padding:10px;
+}
+/* end  elementos do topico 4 */
+
+
+/* elementos do topico 6 */
+
+#divConsImg6{
+  background: #B8AEA4;
+  border:1px solid black;
+
+}
+
+
+#divAlinhaImg6{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+
+#listaCons1Img6{
+
+    border:none;
+
+}
+
+
+#listaCons2Img6{
+
+    border:none;
+    margin-top:-10px;
+
+}
+
+
+
+#divImg6{
+  padding:10px;
+}
+
+/* end  elementos do topico 6 */
+
+
+/* elementos do topico 7 */
+
+#divAlinhaImg7{
+
+     display: flex;
+  flex-direction:row;
+}
+
+#divImg7{
+
+  padding-top:0px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/*end elementos do topico 7 */
+
+/* elementos do topico 8 */
+
+#divAlinhaImg8{
+
+    display: flex;
+    flex-direction:row;
+    background: #B8AEA4;
+    border:1px solid black;
+}
+
+
+
+#listaCons1Img8{
+
+    border:none;
+
+}
+
+#divImg8{
+
+   display: flex;
+   flex-direction:row; 
+   align-items:right;
+   padding:10px;
+}
+
+#dixAuxImg8Right{
+    width: 200px;
+    height: 150px;
+}
+
+
+/*end  elementos do topico 8 */
+
+
+/* elementos do topico 9 */
+
+#divAlinhaImg9{
+
+  display: flex;
+  flex-direction:row;
+  background: #B8AEA4;
+  border:1px solid black;
+
+}
+
+
+#listaCons1Img9{
+
+    border:none;
+
+}
+
+
+#divImg9{
+  padding: 10px;
+}
+/* end elementos do topico 9 */
+
+/* end  alinhamento das imagens na história da AAOC*/
+
+
+/* elementos do topico 12 */
+#divAlinhaImg12{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg12{
+  padding:10px;
+}
+/*end elementos do topico 12 */
+
+
+
+/* elementos do topico 13 */
+#divAlinhaImg13{
+  display: flex;
+  flex-direction:row;
+
+}
+
+
+#divImg13{
+  padding:10px;
+}
+/*end elementos do topico 13 */
+
+

@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'f98f89f0265b58f1061563b720db6ba2b62ec8a4',
+    'reference' => '630bfb10ad8d9d727d18aa9e8d4621cd730363b7',
     'name' => 'felipeno22/aaoc',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'f98f89f0265b58f1061563b720db6ba2b62ec8a4',
+      'reference' => '630bfb10ad8d9d727d18aa9e8d4621cd730363b7',
     ),
     'phpmailer/phpmailer' => 
     array (
@@ -46,6 +46,24 @@
       array (
       ),
       'reference' => '3e95c9abbc57a8f023ab4dacebcab9dae4d9f1f0',
+    ),
+    'twbs/bootstrap' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => 'c3c65911665ab64bdaa15d405db65ee81655dbf3',
+    ),
+    'twitter/bootstrap' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '9999999-dev',
+        1 => 'dev-main',
+      ),
     ),
   ),
 );

@@ -1,0 +1,109 @@
+/*tela de colegiados*/
+/* para o quadro de conselhos (grid) */
+#grid{
+  height:500px;
+  padding-top:10px; 
+  padding-left:100px; 
+  padding-right:100px;
+
+}
+
+#linha1{
+  padding-left:100px; 
+  padding-right:100px;
+  padding-top:20px;
+  padding-bottom:10px;
+  height:250px;
+  background:#B8AEA4;
+  display: flex;
+  flex-direction:row;
+  align-content:center;
+  align-items: center;
+  grid-gap: 8px;
+}
+
+#linha2{
+  padding-left:100px; 
+  padding-right:100px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background:#B8AEA4;
+  display: flex;
+  flex-direction:row;
+  align-content:center;
+  align-items: center;
+  grid-gap: 8px;
+}
+
+
+.divContentConselho{
+  background:white;
+  padding-top:20px;
+  border-radius: 2em;
+  width:200px;
+  height:180px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+
+}
+
+
+/*.divContentConselho:hover{
+  background:green;
+  padding-top:20px;
+  border-radius: 2em;
+  width:200px;
+  height:180px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+
+}*/
+
+/*end  para o quadro de conselhos (grid) */
+
+
+.linksConselhos{
+  text-decoration: none;
+   padding-top:10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:20px;
+}
+
+.divContentConselho:hover .linksConselhos{
+  text-decoration: none;
+  border-radius: 3em;
+   padding-top:5px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:5px;
+  background: green;
+  color: #fff;
+}
+
+
+.imgsConselhos{
+   padding-top:20px;
+   padding-left:10px;
+   padding-right:10px;
+   padding-bottom:10px;
+  background: #fff;
+  border-radius: 2em;
+
+}
+
+.divContentConselho:hover .imgsConselhos{
+   padding-top:20px;
+   padding-left:10px;
+   padding-right:10px;
+   padding-bottom:10px;
+  background: green;
+  border-radius: 2em;
+
+}
+
+/*end tela de colegiados*/
